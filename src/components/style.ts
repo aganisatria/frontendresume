@@ -28,7 +28,7 @@ export const headerStyles: TailwindCSS = {
 }
 
 export const footerStyles: TailwindCSS = {
-    footer: 'mx-3 bg-black flex flex-row p-12 rounded gap-10',
+    footer: 'mx-3 bg-black flex flex-row flex-wrap md:flex-nowrap p-12 rounded gap-10',
     company_logo: 'basis-1/2',
     work: 'basis-1/6 my-auto flex flex-col',
     work_title: 'text-white mb-4 text-center',
